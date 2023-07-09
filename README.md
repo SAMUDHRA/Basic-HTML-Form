@@ -2,7 +2,7 @@
 
 A Basic Application form created in HTML
 
-This form is basically an application to make eye-checkup appointment with Doctor.
+This form is basically an application to Donate blood.
 
 Used basic HTML tags Like: form,headings,input,label etc.
 
