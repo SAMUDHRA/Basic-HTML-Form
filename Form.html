@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Blood donation application form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <form action="/submitted.html" target="_blank" method="get">
+            <h1>BLOOD DONATION APPLICATION FORM</h1><hr>
+            <h2>personal details</h2>
+            <label for = "name">DONAR NAME:</label>
+            <input type = "text" id = "fname" name = "fname" placeholder="first name" required> <input type = "text" id = "lname" name = "lname" placeholder="last name" required> <br> <br>
+            <label for = "dob">DATE OF BIRTH:</label>
+            <input type = "date" id = "dob" name = "dob" required> <br> <br>
+            <label for="email">E-MAIL:</label>
+            <input type="email" id = "email" name = "email" required> <br> <br>
+            <label for="occ">OCCUPATION:</label>
+            <input type="text" id = "occ" name = "occ" required> <br> <br>
+            <label for="number">MOBILE NUMBER:</label>
+            <input type="text" id = "number" name = "number" required> <br> <br>
+            <label for="add">ADDRESS:</label>
+            <input type="text" id = "no" name = "no" placeholder="door no"> 
+            <input type="text" id = "street" name = "street" placeholder="street"> <br> <br>
+            <input type="text" id = "reg" name ="reg" placeholder="region">
+            <input type="text" id = "city" name = "city" placeholder="city"> <br> <br> 
+            <input type="text" id = "dist" name = "dist" placeholder="district">
+            <input type="text" id = "zip" name = "zip" placeholder="zipcode"> <br> <br>
+            <label for="blood">BLOOD GROUP:</label>
+            <select name="bg" id="bg" required>
+                <option value=""></option>
+                <option value="O+">O +</option>
+                <option value="O-">O -</option>
+                <option value="A+">A +</option>
+                <option value="A-">A -</option>
+                <option value="B+">B +</option>
+                <option value="B-">B -</option>
+                <option value="AB+">AB +</option>
+                <option value="AB-">AB -</option>
+            </select> <br> <br>
+            <label for="donar">Are you a first time donar:</label> <br> <br>
+            <input type="radio" id = "y" name = "donar" required>
+            <label for="y">yes</label>
+            <input type="radio" id = "n" name = "donar" required>
+            <label for="n">no</label> <hr>
+            <h2>Health details</h2>
+            <label for="allergy">Do you have any allergy ?</label> <br> <br>
+            <input type="radio" id = "Y" name = "allergy" required>
+            <label for="y">yes</label>
+            <input type="radio" id = "N" name = "allergy" required>
+            <label for="n">no</label> <br> <br>
+            <label for="yes">if yes:</label> <br> 
+            <textarea name="yes" id="if yes" cols="30" rows="5"></textarea> <br> <br>
+            <label for="positive">Do you ever had positive for HIV, Hcv, HbsAg ?</label> <br> <br>
+            <input type="radio" id = "yes" name = "positive" required>
+            <label for="y">yes</label>
+            <input type="radio" id = "no" name = "positive" required>
+            <label for="n">no</label> <br> <br>
+            <label for="disorder">Do you have any bleeding disorder ?</label> <br> <br>
+            <input type="radio" id = "Yes" name = "disorder" required>
+            <label for="y">yes</label>
+            <input type="radio" id = "No" name = "disorder" required>
+            <label for="n">no</label> <hr>
+            <h2>Declaration</h2>
+            <input type="checkbox" id = "box" name ="box" required>
+            <label for="box">I have read all the terms & condations and I accept to donate my blood</label> <br> <br> <br>
+            <label for="sign">Signature:</label> <br>
+            <textarea name="sign" id="sign" cols="30" rows="1" required></textarea> <br> <br> 
+            <input type="submit">
+            
+        </form>
+        
+    </body>
+</html>
